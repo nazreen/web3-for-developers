@@ -1,5 +1,9 @@
 ## LayerZero v2 tutorial
 
+Official Getting Started: https://docs.layerzero.network/contracts/getting-started
+
+## Prepare
+
 Add Ethereum Sepolia: https://revoke.cash/learn/wallets/add-network/ethereum-sepolia
 
 Add Optimism Sepolia: https://revoke.cash/learn/wallets/add-network/optimism-sepolia
@@ -14,7 +18,7 @@ OR https://faucetlink.to/sepolia
 Get Optimism ETH (Github, 0.05 ETH): https://app.optimism.io/faucet
 
 
-## Zero Pad
+## Zero Padding
 
 To convert an EVM address from 20 bytes to 32 bytes, we need to understand the relationship between a hex number and bytes.
 
