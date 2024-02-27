@@ -38,6 +38,7 @@ below are 24 0's. Yes, I counted them for you!
 ## Endpoint address
 
 The docs at https://docs.layerzero.network/contracts/getting-started wrongly quotes the endpoint addresses for both chain as 0x464570adA09869d8741132183721B4f0769a0287
+
 it should be 0x6edce65403992e310a62460808c4b910d972f10f
 
 You can view the latest addresses at https://docs.layerzero.network/contracts/endpoint-addresses
