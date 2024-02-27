@@ -12,3 +12,10 @@ OR https://www.alchemy.com/faucets/ethereum-sepolia (slow)
 OR https://faucetlink.to/sepolia
 
 Get Optimism ETH (Github, 0.05 ETH): https://app.optimism.io/faucet
+
+
+## Zero Pad
+
+below are 12 0's. Yes, I counted them for you!
+
+0000000000 
