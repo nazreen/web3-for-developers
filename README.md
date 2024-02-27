@@ -18,4 +18,4 @@ Get Optimism ETH (Github, 0.05 ETH): https://app.optimism.io/faucet
 
 below are 12 0's. Yes, I counted them for you!
 
-0000000000 
+000000000000 
