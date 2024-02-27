@@ -1,4 +1,4 @@
-LayerZero v2 tutorial
+## LayerZero v2 tutorial
 
 Add Ethereum Sepolia: https://revoke.cash/learn/wallets/add-network/ethereum-sepolia
 
