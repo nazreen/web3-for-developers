@@ -2,7 +2,7 @@ Simplifying things
 - The scaffolded project will have by default 3 chains: Ethereum Sepolia, Avalanche Fuji and Polygon Mumbai
 - Testnet gas tokens for Avalanche Fuji is very annoying to get. The official faucet and Quicknode's both required you to connect using an address that has a balance on mainnet. Bitbond's require you to complete a profile. As such, we will exclude it. LayerZero probably included 3 to demonstrate how easy it is to deploy using the CLI, but we only really need 2. We'll keep Ethereum Sepolia and Polygon Mumbai since it's fairly easy to get testnet gas tokens on them both.
 
-Preparations
+# Prepare
 - comment out lines in layerzero.config.ts under contracts and connections that related to Avalanche Fuji
 - add the networks involved in the scaffolded project (Ethereum Sepolia, Polygon Mumbai)
   - you can use https://chainlist.org/ to add the networks (ensure you check the 'include testnets' checkbox) 
