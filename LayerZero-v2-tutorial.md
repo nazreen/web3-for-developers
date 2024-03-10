@@ -1,5 +1,7 @@
 ## LayerZero v2 tutorial
 
+This is the accompanying notes for the video at https://www.youtube.com/watch?v=qC1sUfFxpok
+
 Official Getting Started: https://docs.layerzero.network/contracts/getting-started
 
 ## Prepare
