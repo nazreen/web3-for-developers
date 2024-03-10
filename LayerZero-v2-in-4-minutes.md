@@ -14,5 +14,8 @@ Simplifying things
 # Wiring
 Current, the docs tell you to run `npx hardhat lz:oapp:wire`, which is incomplete. You should run instead: `npx hardhat lz:oapp:wire --oapp-config layerzero.config.ts`
 
+
+
 Appendix
 On Wiring and Configurations: https://docs.layerzero.network/contracts/wiring
+Verifying contract: https://sourcify.dev/
