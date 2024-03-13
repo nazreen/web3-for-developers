@@ -14,6 +14,10 @@ Simplifying things
 # Wiring
 Current, the docs tell you to run `npx hardhat lz:oapp:wire`, which is incomplete. You should run instead: `npx hardhat lz:oapp:wire --oapp-config layerzero.config.ts`
 
+# Manual Test
+
+## Options Generator
+Remix: https://remix.ethereum.org/#url=https://docs.layerzero.network/LayerZero/contracts/OptionsGenerator.sol&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.24+commit.e11b9ed9.js
 
 
 Appendix
