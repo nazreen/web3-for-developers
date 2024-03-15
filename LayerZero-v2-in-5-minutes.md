@@ -17,8 +17,10 @@ Current, the docs tell you to run `npx hardhat lz:oapp:wire`, which is incomplet
 # Manual Test
 
 ## Endpoints IDs
-Avalanche Fuji: 40106
-Polygon Mumbai: 40109
+
+- Avalanche Fuji: 40106
+
+- Polygon Mumbai: 40109
 
 ## Options Generator
 Remix: https://remix.ethereum.org/#url=https://docs.layerzero.network/LayerZero/contracts/OptionsGenerator.sol&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.24+commit.e11b9ed9.js
