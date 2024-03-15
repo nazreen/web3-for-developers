@@ -22,6 +22,10 @@ Current, the docs tell you to run `npx hardhat lz:oapp:wire`, which is incomplet
 
 - Polygon Mumbai: 40109
 
+## Zero padding
+
+000000000000000000000000
+
 ## Options Generator
 Remix: https://remix.ethereum.org/#url=https://docs.layerzero.network/LayerZero/contracts/OptionsGenerator.sol&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.24+commit.e11b9ed9.js
 
