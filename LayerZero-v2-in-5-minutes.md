@@ -2,6 +2,9 @@ Simplifying things
 - The scaffolded project will have by default 3 chains: Ethereum Sepolia, Avalanche Fuji and Polygon Mumbai
 - We only need 2 chains, to demonstrate how LayerZero works, so we'll remove one. At the moment, Ethereum Sepolia test ether is annoying to get, so we'll remove Ethereum Sepolia.
 
+# Official Documentation
+https://docs.layerzero.network/contracts/project-setup
+
 # Prepare
 - comment out the `sepolia` entry in `hardhat.config.ts` (if you don't, when deploying, the lz cli will list fuji as an option)
 - comment out lines in `layerzero.config.ts` under contracts and connections that related to Ethereum Sepolia
