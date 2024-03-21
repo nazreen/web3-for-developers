@@ -35,4 +35,3 @@ Remix: https://remix.ethereum.org/#url=https://docs.layerzero.network/LayerZero/
 
 Appendix
 On Wiring and Configurations: https://docs.layerzero.network/contracts/wiring
-Verifying contract: https://sourcify.dev/
