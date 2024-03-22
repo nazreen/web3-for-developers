@@ -13,6 +13,35 @@ https://docs.layerzero.network/contracts/project-setup
 - get testnet gas tokens
   - Avalanche Fuji: https://core.app/tools/testnet-faucet/
   - Polygon Mumbai: https://faucet.polygon.technology/ (requires a Discord connection and joining the Polygon discord) OR https://www.alchemy.com/faucets/polygon-mumbai (requires an Alchemy account, which I recommend)
+ 
+# Modifications
+
+Your contracts/MyOFT.sol should remain unchanged.
+
+Your contracts/mocks/MyOFTMock.sol should look like this:
+
+```
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.22;
+
+import { MyOFT } from "../MyOFT.sol";
+
+// @dev WARNING: This is for testing purposes only
+contract MyOFTMock is MyOFT {
+    constructor(
+        string memory _name,
+        string memory _symbol,
+        address _lzEndpoint,
+        address _delegate
+    ) MyOFT(_name, _symbol, _lzEndpoint, _delegate) {
+        _mint(msg.sender, 100 * 10**18);
+    }
+
+    function mint(address _to, uint256 _amount) public {
+        _mint(_to, _amount);
+    }
+}
+```
 
 # Wiring
 Current, the docs tell you to run `npx hardhat lz:oapp:wire`, which is incomplete. You should run instead: `npx hardhat lz:oapp:wire --oapp-config layerzero.config.ts`
