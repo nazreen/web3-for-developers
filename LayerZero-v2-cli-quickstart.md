@@ -3,7 +3,7 @@ Simplifying things
 - We only need 2 chains, to demonstrate how LayerZero works, so we'll remove one. At the moment, Ethereum Sepolia test ether is annoying to get, so we'll remove Ethereum Sepolia.
 
 # Official Documentation
-https://docs.layerzero.network/contracts/project-setup
+https://docs.layerzero.network/v2/developers/evm/create-lz-oapp/start
 
 # Prepare
 - comment out the `sepolia` entry in `hardhat.config.ts` (if you don't, when deploying, the lz cli will list fuji as an option)
